@@ -5,13 +5,10 @@ import by.itstep.goutor.javalesson.lesson34.view.Printer;
 
 public class Main {
     public static void main(String[] args) {
-        WeekDay monday = new WeekDay();
-        WeekDay friday = new WeekDay("Friday", 5);
 
-        WeekDay mars = new WeekDay("Mars", 8);
-
-
-        System.out.println(monday);
-        System.out.println(friday);
+        WeekDay monday1 = WeekDay.MONDAY;
+        WeekDay monday2= WeekDay.MONDAY;
+        WeekDay monday3 = WeekDay.MONDAY;
     }
+
 }
